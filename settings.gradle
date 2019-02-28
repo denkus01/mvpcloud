@@ -1,0 +1,6 @@
+rootProject.name = 'mvpcloud'
+include 'api'
+include 'eureka'
+include 'search'
+include 'contract'
+

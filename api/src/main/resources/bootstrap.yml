@@ -1,0 +1,17 @@
+server:
+    port: 8081
+    session:
+      cookie:
+        name: api-service
+    context-path: /api
+
+spring:
+  application:
+    name: api-service
+
+eureka:
+  client:
+    region: default
+    registry-fetch-interval-seconds: 10
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
